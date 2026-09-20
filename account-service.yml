@@ -7,7 +7,7 @@ spring:
     url: jdbc:postgresql://localhost:9010/voltrix-account-db
     username: user
     password: password
-    driver-class-name: org.postgresql.driver
+    driver-class-name: org.postgresql.Driver
 
 stripe:
   api:
