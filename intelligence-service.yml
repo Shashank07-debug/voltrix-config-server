@@ -16,7 +16,8 @@ spring:
       base-url: https://openrouter.ai/api
       chat:
         options:
-          model: nvidia/nemotron-3.5-lightning:free
+          # model: nvidia/nemotron-3.5-lightning:free
+          model: qwen/qwen3.8-27b:free
           temperature: 0.2
       embedding:
         options:
