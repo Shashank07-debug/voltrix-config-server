@@ -22,4 +22,22 @@ stripe:
     key: sk_test_51TtmQmPGKqWFfbtWSOuWV4nMsLumxlA8GKoWt160cibnMXZV8QhereAwwTh4TUhEyAPxDXyKgkuwp0PITAcBujVY007UivVuYz
   webhook:
     secret: whsec_7531d6ebdf2f3e56e3bdc45f7e78cb5d0e729b8fd4bdb5ad40df900fcbf25858
+
+---
+
+spring:
+  config:
+    activate:
+      on-profile: k8s
+  datasource:
+    url: jdbc:postgresql://pgvector.voltrix-core.svc.cluster.local:5432/account_db
+    username: account_user
+    password: ${DB_PASSWORD}
+
+
+stripe:
+  api:
+    secret: ${STRIPE_API_KEY}
+  webhook:
+    secret: ${STRIPE_WEBHOOK_SECRET}
     
