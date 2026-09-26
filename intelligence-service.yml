@@ -19,10 +19,10 @@ spring:
           # model: nvidia/nemotron-3.5-lightning:free
           # model: inclusionai/ling-3.0-flash-fin:free
           # model: qwen/qwen3.8-27b:free
-          model: poolside/laguna-s-2.1:free
+          # model: poolside/laguna-s-2.1:free
           # model: nvidia/nemotron-3-ultra-550b-a55b:free
           # model: qwen/qwen3.8-27b:free
-          # model: cohere/north-mini-code:free
+          model: cohere/north-mini-code:free
           temperature: 0.2
       embedding:
         options:
