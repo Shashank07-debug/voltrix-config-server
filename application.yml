@@ -37,7 +37,7 @@ jwt:
 
 app:
   frontend:
-    url: http://localhost:8082/frontend
+    url: https://usevoltrix.xyz
   preview:
     domain: localhost
     namespace: voltrix-apps 
