@@ -27,8 +27,8 @@ spring:
           temperature: 0.2
       embedding:
         options:
-          # model: nvidia/nemotron-3-embed-1b:free
-          model: liquid/lfm-2.5-embedding-350m:free
+          model: nvidia/nemotron-3-embed-1b:free
+          # model: liquid/lfm-2.5-embedding-350m:free
 
 ---
 
