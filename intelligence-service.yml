@@ -24,8 +24,8 @@ spring:
           # model: qwen/qwen3.8-27b:free
           # model: cohere/north-mini-code:free
           # model: baidu/ernie-5.5-flash-preview:free
-          # model: particle-ai/particle-1:free
-          model: nvidia/nemotron-3.5-super-vl:free
+          model: particle-ai/particle-1:free
+          # model: nvidia/nemotron-3.5-super-vl:free
           temperature: 0.2
       embedding:
         options:
